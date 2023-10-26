@@ -516,3 +516,257 @@ classpath:com/luidimso/automation/getrequest/getRequest2.feature:12
 1 < Connection: keep-alive
 [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
 
+05:29:32.178 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:29:32.574 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:32.589 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:32.693 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:32.704 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 111 milliseconds for url: http://localhost:9191/normal/webapi/all
+05:29:32.705 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/getrequest/getrequest2.feature:11
+When method get
+http call failed after 111 milliseconds for url: http://localhost:9191/normal/webapi/all
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/getrequest/getrequest2.feature:11
+05:29:32.717 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:32.719 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:32.720 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:32.721 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 2 milliseconds for url: http://localhost:9191/normal/webapi/all
+05:29:32.721 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/getrequest/getrequest2.feature:17
+When method get
+http call failed after 2 milliseconds for url: http://localhost:9191/normal/webapi/all
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/getrequest/getrequest2.feature:17
+05:29:32.725 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:32.726 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:32.728 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:32.729 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 1 milliseconds for url: http://localhost:9191/normal/webapi/all
+05:29:32.729 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/getrequest/getrequest2.feature:23
+When method get
+http call failed after 1 milliseconds for url: http://localhost:9191/normal/webapi/all
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/getrequest/getrequest2.feature:23
+05:29:33.143 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:29:33.146 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:33.147 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:33.148 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:33.148 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 1 milliseconds for url: http://localhost:9191/normal/webapi/all
+05:29:33.149 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/getrequest/getRequest2.feature:11
+When method get
+http call failed after 1 milliseconds for url: http://localhost:9191/normal/webapi/all
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/getrequest/getRequest2.feature:11
+05:29:33.152 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:33.152 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:33.153 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:33.154 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 2 milliseconds for url: http://localhost:9191/normal/webapi/all
+05:29:33.154 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/getrequest/getRequest2.feature:17
+When method get
+http call failed after 2 milliseconds for url: http://localhost:9191/normal/webapi/all
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/getrequest/getRequest2.feature:17
+05:29:33.157 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:33.157 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:33.158 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:33.159 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 2 milliseconds for url: http://localhost:9191/normal/webapi/all
+05:29:33.159 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/getrequest/getRequest2.feature:23
+When method get
+http call failed after 2 milliseconds for url: http://localhost:9191/normal/webapi/all
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/getrequest/getRequest2.feature:23
+05:29:50.183 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:29:50.595 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:50.610 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:50.712 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:50.826 [main] DEBUG com.intuit.karate - response time in milliseconds: 113
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 26 Oct 2023 08:29:50 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+05:29:50.847 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:50.849 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:50.850 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:50.854 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 26 Oct 2023 08:29:50 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+05:29:50.858 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:50.859 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:50.861 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:50.878 [main] DEBUG com.intuit.karate - response time in milliseconds: 16
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 26 Oct 2023 08:29:50 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+
+05:29:51.223 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:29:51.226 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:51.227 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:51.227 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:51.240 [main] DEBUG com.intuit.karate - response time in milliseconds: 13
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 26 Oct 2023 08:29:50 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+05:29:51.244 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:51.245 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:51.245 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:51.251 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 26 Oct 2023 08:29:50 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+05:29:51.254 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:29:51.255 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:29:51.255 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+05:29:51.261 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 26 Oct 2023 08:29:50 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+

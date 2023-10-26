@@ -16,3 +16,9 @@
 			And path '/normal/webapi/all'
 			When method get
 			Then status 200
+			
+		Scenario: To get all the data from application in JSON format using path variable with XML response
+			And path '/normal/webapi/all'
+			And header Accept = 'application/xml'
+			When method get
+			Then status 200
