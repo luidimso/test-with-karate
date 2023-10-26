@@ -27,4 +27,7 @@ Feature: To validate the GET endpoint
 			And match response.[0].experience[1] == '#notnull'
 			And match response.[0].experience == '#array'
 			And match response.[0].experience[1] == '#string'
-			
+			#complex fuzzy matcher (self reference)
+			And match response.[0].jobId == '#? _ >= 1'
+			#complex fuzzy matcher (get string type properties)
+			And match response.[0].jobTitle == '#string? _.length >= 1'
