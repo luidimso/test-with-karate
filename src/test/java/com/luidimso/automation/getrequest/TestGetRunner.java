@@ -7,7 +7,7 @@ public class TestGetRunner {
 
 	@Test
 	public Karate runTest() {
-		return Karate.run("getRequest2", "response").relativeTo(getClass());
+		return Karate.run("getRequest2", "response", "validateJSONArray").relativeTo(getClass());
 		
 	}
 	
