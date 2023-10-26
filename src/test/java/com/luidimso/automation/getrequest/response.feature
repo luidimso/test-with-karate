@@ -10,3 +10,4 @@ Feature: To validate the GET endpoint
 			When method get
 			Then status 200
 			And print response
+			And match header Content-Type == 'application/json'

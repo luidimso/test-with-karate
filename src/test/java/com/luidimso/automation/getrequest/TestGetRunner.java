@@ -17,3 +17,5 @@ public class TestGetRunner {
 //	}
 	
 }
+
+// java -jar -Dserver.port-9897 jobportal-0.0.1-SNAPSHOT.jar
