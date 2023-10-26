@@ -26,7 +26,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 });
 </script>
 
-    <title>com.luidimso.automation.getrequest.response</title>
+    <title>com.luidimso.automation.getrequest.variables</title>
   </head>
   <body>
     <div id="root-container">
@@ -55,7 +55,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1:7]"><span>[1:7]</span> <span>To get the data in JSO</span></a>
+            <a href="#[1:8]"><span>[1:8]</span> <span>To create variables</span></a>
           </div>
         </div>
       </div>
@@ -64,34 +64,34 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
-          <span class="feature-path">com/luidimso/automation/getrequest/response.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">To validate the GET endpoint</span>
-          <span class="feature-description">To validate the endpoint response</span>
+          <span class="feature-path">com/luidimso/automation/getrequest/variables.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">To create variables as examples</span>
+          <span class="feature-description">To create variables and test them</span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:7]">
+          <div class="scenario-heading" id="[1:8]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:7]</span>
-                <span class="scenario-name">To get the data in JSO</span>
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">To create variables</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>14</span>
+              <span>ms:</span>&nbsp;<span>2</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:7]bg">
+            <div class="step-container" id="[1:8]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:7]bg"><div>
+          <div data-parent="[1:8]bg"><div>
   
 
   
@@ -101,7 +101,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref bg-step">5</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>url &#39;http://localhost:9191&#39;</span>
+        <span>*</span>&nbsp;<span>def hello = &#39;Hello&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -113,36 +113,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">16:38:58.304 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.5">16:38:58.424 karate.env system property was: null 
 </div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.8">
-      <div class="step-ref passed">8</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>path &#39;/normal/webapi/all&#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">0</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
 
   
 
@@ -158,7 +130,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">9</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+        <span>Given</span>&nbsp;<span>def variable = 10</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -186,10 +158,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">10</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method get</span>
+        <span>Then</span>&nbsp;<span>print variable</span>
       </div>
     </div>
-    <div class="time-cell passed">8</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -198,30 +170,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.10">16:38:58.305 request:
-1 &gt; GET http://localhost:9191/normal/webapi/all
-1 &gt; Accept: application/json
-1 &gt; Host: localhost:9191
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
-1 &gt; Accept-Encoding: gzip,deflate
-
-
-16:38:58.312 response time in milliseconds: 7
-1 &lt; 200
-1 &lt; X-Content-Type-Options: nosniff
-1 &lt; X-XSS-Protection: 1; mode=block
-1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-1 &lt; Pragma: no-cache
-1 &lt; Expires: 0
-1 &lt; X-Frame-Options: DENY
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Date: Thu, 26 Oct 2023 19:38:57 GMT
-1 &lt; Keep-Alive: timeout=60
-1 &lt; Connection: keep-alive
-[{&quot;jobId&quot;:1,&quot;jobTitle&quot;:&quot;Software Engg&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:[&quot;Google&quot;,&quot;Apple&quot;,&quot;Mobile Iron&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Movie App&quot;,&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;]}]}]
-
+  <div class="preformatted" data-parent="0.10">16:38:58.425 [print] 10 
 </div>   
 
   
@@ -238,7 +187,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 200</span>
+        <span>*</span>&nbsp;<span>def variable_2 = variable + 619</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -266,10 +215,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">12</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>print response</span>
+        <span>And</span>&nbsp;<span>print variable_2</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -278,29 +227,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.12">16:38:58.313 [print] [
-  {
-    &quot;jobId&quot;: 1,
-    &quot;jobTitle&quot;: &quot;Software Engg&quot;,
-    &quot;jobDescription&quot;: &quot;To develop andriod application&quot;,
-    &quot;experience&quot;: [
-      &quot;Google&quot;,
-      &quot;Apple&quot;,
-      &quot;Mobile Iron&quot;
-    ],
-    &quot;project&quot;: [
-      {
-        &quot;projectName&quot;: &quot;Movie App&quot;,
-        &quot;technology&quot;: [
-          &quot;Kotlin&quot;,
-          &quot;SQL Lite&quot;,
-          &quot;Gradle&quot;
-        ]
-      }
-    ]
-  }
-]
- 
+  <div class="preformatted" data-parent="0.12">16:38:58.426 [print] 629 
 </div>   
 
   
@@ -317,10 +244,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">13</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match header Content-Type == &#39;application/json&#39;</span>
+        <span>And</span>&nbsp;<span>print hello</span>
       </div>
     </div>
-    <div class="time-cell passed">5</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -329,7 +256,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-     
+  <div class="preformatted" data-parent="0.13">16:38:58.426 [print] Hello 
+</div>   
 
   
 

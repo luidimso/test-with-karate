@@ -1,5 +1,5 @@
-Feature: To validate the GET endpoint
-		To validate the endpoint response
+Feature: To validate JSON properties
+		To validate the properties od JSON response
 		
 		Background: Setup the Base URL
 			Given url 'http://localhost:9191'
