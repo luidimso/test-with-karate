@@ -17,3 +17,14 @@ Feature: To validate the GET endpoint
 			And match response.[0].experience[*] == ["Google","Apple","Mobile Iron"]
 			And match response.[0].experience[*] contains ["Google","Apple"]
 			
+			
+	 Scenario: To get the data in JSON and validate properties using fuzzy methods
+			And path '/normal/webapi/all'
+			And header Accept = 'application/json'
+			When method get
+			Then status 200
+			And match response.[0].jobId == '#present'
+			And match response.[0].experience[1] == '#notnull'
+			And match response.[0].experience == '#array'
+			And match response.[0].experience[1] == '#string'
+			
