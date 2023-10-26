@@ -7,13 +7,13 @@ public class TestGetRunner {
 
 	@Test
 	public Karate runTest() {
-		return Karate.run("getRequest2").relativeTo(getClass());
+		return Karate.run("getRequest2", "response").relativeTo(getClass());
 		
 	}
 	
-	@Test
-	public Karate runTestUsingClassPath() {
-		return Karate.run("classpath:com/luidimso/automation/getrequest/getrequest2.feature");
-	}
+//	@Test
+//	public Karate runTestUsingClassPath() {
+//		return Karate.run("classpath:com/luidimso/automation/getrequest/getrequest2.feature");
+//	}
 	
 }

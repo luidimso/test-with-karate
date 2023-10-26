@@ -1,4 +1,4 @@
-1-Feature: To test the point of application
+Feature: To test the point of application
 		To test different get endpoint with different data format supported by the application
 		
 		Scenario: To test the get endpoint with JSON data

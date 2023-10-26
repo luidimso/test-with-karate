@@ -1,4 +1,4 @@
-1-Feature: To test the get endpoint of application
+Feature: To test the get endpoint of application
 		To test different get endpoint with different data format supported by the application
 		
 		Background: Setup the Base path
