@@ -4718,3 +4718,79 @@ classpath:com/luidimso/automation/getrequest/variables.feature:7
 16:38:58.425 [main] INFO  com.intuit.karate - [print] 10 
 16:38:58.426 [main] INFO  com.intuit.karate - [print] 629 
 16:38:58.426 [main] INFO  com.intuit.karate - [print] Hello 
+04:34:15.873 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:34:16.372 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:34:16.390 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:34:16.408 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/postrequest/createJobEntry.feature:11
+And headers {Accept = 'application/json', Content-type = 'application/json'}
+net.minidev.json.parser.ParseException: Unexpected End Of File position 63: null
+classpath:com/luidimso/automation/postrequest/createJobEntry.feature:11
+04:35:38.055 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: com/luidimso/automation/postrequest/createJobEntry.feature - mismatched input '"' expecting <EOF>
+04:35:58.082 [main] ERROR c.intuit.karate.core.FeatureParser - not a valid feature file: com/luidimso/automation/postrequest/createJobEntry.feature - mismatched input '"' expecting <EOF>
+04:36:14.261 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:36:14.715 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:36:14.731 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:36:14.748 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/postrequest/createJobEntry.feature:11
+And headers {Accept = 'application/json', Content-type = 'application/json'}
+net.minidev.json.parser.ParseException: Unexpected End Of File position 63: null
+classpath:com/luidimso/automation/postrequest/createJobEntry.feature:11
+04:37:36.379 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:37:36.753 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:37:36.766 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:37:36.777 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/postrequest/createJobEntry.feature:10
+And request {"jobId": 619, "jobTitle": "Web Developer", "jobDescription": "To develop web applications","experience": ["Developer"],"project": [{"projectName": "Social Media"},"technology": ["JavaScript"]}]}
+net.minidev.json.parser.ParseException: Unexpected character (:) at position 176.
+classpath:com/luidimso/automation/postrequest/createJobEntry.feature:10
+04:43:17.878 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:43:18.288 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:43:18.304 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:43:18.320 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/postrequest/createJobEntry.feature:11
+And headers {Accept = 'application/json', Content-type = 'application/json'}
+net.minidev.json.parser.ParseException: Unexpected End Of File position 63: null
+classpath:com/luidimso/automation/postrequest/createJobEntry.feature:11
+04:45:29.015 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:45:29.414 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:45:29.430 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:45:29.641 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 185
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:45:29.661 [main] DEBUG com.intuit.karate - response time in milliseconds: 17
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Fri, 27 Oct 2023 07:45:29 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:45:29.668 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 619,
+  "jobTitle": "Web Developer",
+  "jobDescription": "To develop web applications",
+  "experience": [
+    "Developer"
+  ],
+  "project": [
+    {
+      "projectName": "Social Media",
+      "technology": [
+        "JavaScript"
+      ]
+    }
+  ]
+}
+ 
