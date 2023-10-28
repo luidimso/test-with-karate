@@ -5456,3 +5456,137 @@ classpath:com/luidimso/automation/postrequest/javaScriptExecutor.feature:4
  
 05:46:36.255 [main] INFO  com.intuit.karate - karate.env system property was: null 
 05:46:36.256 [main] INFO  com.intuit.karate - [print] Hello 
+05:52:27.138 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:52:27.531 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:52:27.546 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:52:27.684 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 185
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+05:52:27.694 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 106 milliseconds for url: http://localhost:9191/normal/webapi/add
+05:52:27.694 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/postrequest/createJobEntry.feature:14
+When method post
+http call failed after 106 milliseconds for url: http://localhost:9191/normal/webapi/add
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/postrequest/createJobEntry.feature:14
+05:52:27.937 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:52:27.938 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:52:27.941 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 185
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+05:52:27.941 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 1 milliseconds for url: http://localhost:9191/normal/webapi/add
+05:52:27.942 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/postrequest/createJobEntry.feature:14
+When method post
+http call failed after 1 milliseconds for url: http://localhost:9191/normal/webapi/add
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/postrequest/createJobEntry.feature:14
+05:52:28.017 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:52:28.019 [main] INFO  com.intuit.karate - [print] Hello 
+05:52:42.656 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:52:43.056 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:52:43.072 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:52:43.218 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 185
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+05:52:43.350 [main] DEBUG com.intuit.karate - response time in milliseconds: 131
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 28 Oct 2023 08:52:43 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+05:52:43.356 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 619,
+  "jobTitle": "Web Developer",
+  "jobDescription": "To develop web applications",
+  "experience": [
+    "Developer"
+  ],
+  "project": [
+    {
+      "projectName": "Social Media",
+      "technology": [
+        "JavaScript"
+      ]
+    }
+  ]
+}
+ 
+05:52:43.640 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:52:43.641 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:52:43.643 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 185
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+05:52:43.651 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Sat, 28 Oct 2023 08:52:43 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+05:52:43.652 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 619,
+  "jobTitle": "Web Developer",
+  "jobDescription": "To develop web applications",
+  "experience": [
+    "Developer"
+  ],
+  "project": [
+    {
+      "projectName": "Social Media",
+      "technology": [
+        "JavaScript"
+      ]
+    }
+  ]
+}
+ 
+05:52:43.718 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:52:43.719 [main] INFO  com.intuit.karate - [print] Hello 

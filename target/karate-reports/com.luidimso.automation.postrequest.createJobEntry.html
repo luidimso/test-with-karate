@@ -49,13 +49,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2023-10-28 05:46:36 AM</div>
+    <div>2023-10-28 05:52:43 AM</div>
   </div>
 </div>
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1:9]"><span>[1:9]</span> <span>To create a job entry in JSON format</span></a>
+            <a href="#[1:10]"><span>[1:10]</span> <span>To create a job entry in JSON format</span></a>
           </div>
         </div>
       </div>
@@ -69,29 +69,29 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <span class="feature-description">To use POST as method to create a job entry in the application</span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:9]">
+          <div class="scenario-heading" id="[1:10]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:9]</span>
+                Scenario: <span>[1:10]</span>
                 <span class="scenario-name">To create a job entry in JSON format</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>16</span>
+              <span>ms:</span>&nbsp;<span>12</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:9]bg">
+            <div class="step-container" id="[1:10]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:9]bg"><div>
+          <div data-parent="[1:10]bg"><div>
   
 
   
@@ -113,14 +113,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">05:46:36.169 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.5">05:52:43.640 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1:9]bg"><div>
+          <div data-parent="[1:10]bg"><div>
   
 
   
@@ -142,14 +142,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.6">05:46:36.170 [print] Backgrount seted up 
+  <div class="preformatted" data-parent="0.6">05:52:43.641 [print] Backgrount seted up 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1:9]bg"><div>
+          <div data-parent="[1:10]bg"><div>
   
 
   
@@ -159,7 +159,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref bg-step">7</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def body = {&quot;jobId&quot;: 619, &quot;jobTitle&quot;: &quot;Web Developer&quot;, &quot;jobDescription&quot;: &quot;To develop web applications&quot;,&quot;experience&quot;: [&quot;Developer&quot;],&quot;project&quot;: [{&quot;projectName&quot;: &quot;Social Media&quot;,&quot;technology&quot;: [&quot;JavaScript&quot;]}]}</span>
+        <span>*</span>&nbsp;<span>def getJobId = function(value) {return 619;}</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -177,17 +177,17 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
 </div>
 </div>
-          <div><div>
+          <div data-parent="[1:10]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.10">
-      <div class="step-ref passed">10</div>
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>path &#39;/normal/webapi/add&#39;</span>
+        <span>*</span>&nbsp;<span>def body = {&quot;jobId&quot;: &quot;#(getJobId())&quot;, &quot;jobTitle&quot;: &quot;Web Developer&quot;, &quot;jobDescription&quot;: &quot;To develop web applications&quot;,&quot;experience&quot;: [&quot;Developer&quot;],&quot;project&quot;: [{&quot;projectName&quot;: &quot;Social Media&quot;,&quot;technology&quot;: [&quot;JavaScript&quot;]}]}</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -215,7 +215,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request body</span>
+        <span>Given</span>&nbsp;<span>path &#39;/normal/webapi/add&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -243,7 +243,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">12</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>headers {Accept : &#39;application/json&#39;, Content-type : &#39;application/json&#39;}</span>
+        <span>And</span>&nbsp;<span>request body</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -271,10 +271,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">13</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method post</span>
+        <span>And</span>&nbsp;<span>headers {Accept : &#39;application/json&#39;, Content-type : &#39;application/json&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">14</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -283,7 +283,35 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.13">05:46:36.172 request:
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.14">05:52:43.644 request:
 1 &gt; POST http://localhost:9191/normal/webapi/add
 1 &gt; Accept: application/json
 1 &gt; Content-type: application/json; charset=UTF-8
@@ -294,7 +322,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;jobId&quot;:619,&quot;jobTitle&quot;:&quot;Web Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
 
-05:46:36.184 response time in milliseconds: 12
+05:52:43.651 response time in milliseconds: 7
 1 &lt; 201
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-XSS-Protection: 1; mode=block
@@ -304,7 +332,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; X-Frame-Options: DENY
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
-1 &lt; Date: Sat, 28 Oct 2023 08:46:35 GMT
+1 &lt; Date: Sat, 28 Oct 2023 08:52:43 GMT
 1 &lt; Keep-Alive: timeout=60
 1 &lt; Connection: keep-alive
 {&quot;jobId&quot;:619,&quot;jobTitle&quot;:&quot;Web Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
@@ -321,8 +349,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.14">
-      <div class="step-ref passed">14</div>
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>status 201</span>
@@ -349,8 +377,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.15">
-      <div class="step-ref passed">15</div>
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>print response</span>
@@ -365,7 +393,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.15">05:46:36.185 [print] {
+  <div class="preformatted" data-parent="0.16">05:52:43.652 [print] {
   &quot;jobId&quot;: 619,
   &quot;jobTitle&quot;: &quot;Web Developer&quot;,
   &quot;jobDescription&quot;: &quot;To develop web applications&quot;,
@@ -394,14 +422,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.16">
-      <div class="step-ref passed">16</div>
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match response.jobId == 619</span>
+        <span>And</span>&nbsp;<span>match response.jobId == getJobId()</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
