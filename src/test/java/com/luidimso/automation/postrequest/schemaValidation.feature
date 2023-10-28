@@ -6,7 +6,7 @@ Feature: To validate JSON schema
 			And print 'Backgrount seted up'
 			* def body = {"jobId": 619, "jobTitle": "Web Developer", "jobDescription": "To develop web applications","experience": ["Developer"],"project": [{"projectName": "Social Media","technology": ["JavaScript"]}]}
 
-		Scenario: To create a job entry in JSON format
+		Scenario: To validate object schema
 			Given path '/normal/webapi/add'
 			And request body
 			And headers {Accept : 'application/json', Content-type : 'application/json'}

@@ -7,7 +7,7 @@ public class TestPostRunner {
 
 	@Test
 	public Karate runTest() {
-		return Karate.run("createJobEntry", "createJobEntry").relativeTo(getClass());
+		return Karate.run("createJobEntry", "createJobEntry", "javaScriptExecutor").relativeTo(getClass());
 		
 	}
 }
