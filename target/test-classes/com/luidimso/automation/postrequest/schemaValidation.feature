@@ -1,5 +1,5 @@
-Feature: To create a job entry in the application
-		To use POST as method to create a job entry in the application
+Feature: To validate JSON schema
+		To validate JSON schema for POSR request
 		
 		Background: Setup the Base path
 			Given url 'http://localhost:9191'
@@ -12,5 +12,13 @@ Feature: To create a job entry in the application
 			And headers {Accept : 'application/json', Content-type : 'application/json'}
 			When method post
 			And status 201
-			And print response
-			And match response.jobId == 619
+			And match response == 
+			***
+			{
+			"jobId": "#number",
+			"jobTitle": "#string",
+			"jobDescription": "@string",
+			"experience": "#[] #string",
+			"project": "#[] #object"
+			}
+			***
