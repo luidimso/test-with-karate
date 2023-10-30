@@ -6533,3 +6533,226 @@ classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
 1 < Connection: keep-alive
 {"jobId":91,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
 
+04:56:03.444 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:56:03.827 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:56:03.842 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:56:03.874 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+* def postRequest = call read("../createJobEntry.feature") (_url: 'http://localhost:9191', _path: '/normal/webapi/add', _id: '#(id)')
+js failed:
+>>>>
+01: (_url: 'http://localhost:9191', _path: '/normal/webapi/add', _id: '#(id)')
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:5 Expected ) but found :
+(_url: 'http://localhost:9191', _path: '/normal/webapi/add', _id: '#(id)')
+     ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2238)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2157)
+- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:1958)
+
+classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+04:57:57.434 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:57:57.819 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:57:57.833 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:57:57.981 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":76,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:57:57.990 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 105 milliseconds for url: http://localhost:9191/normal/webapi/add
+04:57:57.990 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/../createJobEntry.feature:9
+When method post
+http call failed after 105 milliseconds for url: http://localhost:9191/normal/webapi/add
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/putrequest/../createJobEntry.feature:9
+04:57:57.992 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+* def postRequest = call read("../createJobEntry.feature") {_url: 'http://localhost:9191', _path: '/normal/webapi/add', _id: '#(id)'}
+http call failed after 105 milliseconds for url: http://localhost:9191/normal/webapi/add
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/putrequest/../createJobEntry.feature:9
+classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+04:58:12.256 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:58:12.661 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:58:12.677 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:58:12.832 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":63,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:58:12.980 [main] DEBUG com.intuit.karate - response time in milliseconds: 146
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:58:12 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":63,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:58:12.989 [main] DEBUG com.intuit.karate - request:
+1 > PUT http://localhost:9191/normal/webapi/update
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 190
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":null,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:58:12.997 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+1 < 404
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:58:12 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"Failed to update Entry [jobId=0, jobTitle=Backend Developer, jobDescription=To develop web applications, experience=[Ljava.lang.Object;@37246da6, project=[[projectName=Social Media, technology=[JavaScript]]]]"}
+
+04:58:13.001 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:17
+And status 200
+status code was: 404, expected: 200, response time in milliseconds: 8, url: http://localhost:9191/normal/webapi/update, response: 
+{"message":"Failed to update Entry [jobId=0, jobTitle=Backend Developer, jobDescription=To develop web applications, experience=[Ljava.lang.Object;@37246da6, project=[[projectName=Social Media, technology=[JavaScript]]]]"}
+classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:17
+04:59:17.971 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:59:18.363 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:59:18.378 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:59:18.523 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":95,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:59:18.543 [main] DEBUG com.intuit.karate - response time in milliseconds: 19
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:59:18 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":95,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:59:18.551 [main] DEBUG com.intuit.karate - request:
+1 > PUT http://localhost:9191/normal/webapi/update
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 190
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":null,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:59:18.561 [main] DEBUG com.intuit.karate - response time in milliseconds: 10
+1 < 404
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:59:18 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"Failed to update Entry [jobId=0, jobTitle=Backend Developer, jobDescription=To develop web applications, experience=[Ljava.lang.Object;@14fda81, project=[[projectName=Social Media, technology=[JavaScript]]]]"}
+
+04:59:18.565 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:16
+And status 200
+status code was: 404, expected: 200, response time in milliseconds: 10, url: http://localhost:9191/normal/webapi/update, response: 
+{"message":"Failed to update Entry [jobId=0, jobTitle=Backend Developer, jobDescription=To develop web applications, experience=[Ljava.lang.Object;@14fda81, project=[[projectName=Social Media, technology=[JavaScript]]]]"}
+classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:16
+05:00:07.661 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+05:00:08.042 [main] INFO  com.intuit.karate - karate.env system property was: null 
+05:00:08.056 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+05:00:08.201 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":10,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+05:00:08.223 [main] DEBUG com.intuit.karate - response time in milliseconds: 21
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 08:00:08 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":10,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+05:00:08.230 [main] DEBUG com.intuit.karate - request:
+1 > PUT http://localhost:9191/normal/webapi/update
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":10,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+05:00:08.237 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 08:00:08 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":10,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
