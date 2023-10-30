@@ -6224,3 +6224,231 @@ IsInMemory: true
 2 < Connection: keep-alive
 {"jobId":62,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
 
+04:36:22.772 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:36:23.278 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:36:23.296 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:36:23.331 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+Given call read("../createJobEntry.feature")
+js failed:
+>>>>
+01: read("../createJobEntry.feature")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /Users/lsir/eclipse-workspace/test.with.karate/target/test-classes/com/luidimso/automation/putrequest/../createJobEntry.feature (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:70)
+- com.intuit.karate.core.Feature.read(Feature.java:63)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:65)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+04:36:38.466 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:36:38.897 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:36:38.913 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:36:38.943 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+Given call read("../createJobEntry.feature")
+js failed:
+>>>>
+01: read("../createJobEntry.feature")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /Users/lsir/eclipse-workspace/test.with.karate/target/test-classes/com/luidimso/automation/putrequest/../createJobEntry.feature (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:70)
+- com.intuit.karate.core.Feature.read(Feature.java:63)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:65)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+04:37:27.448 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:37:27.826 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:37:27.841 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:37:27.869 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+Given call read("../createJobEntry.feature")
+js failed:
+>>>>
+01: read("../createJobEntry.feature")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: /Users/lsir/eclipse-workspace/test.with.karate/target/test-classes/com/luidimso/automation/putrequest/../createJobEntry.feature (No such file or directory)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:70)
+- com.intuit.karate.core.Feature.read(Feature.java:63)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:65)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:12
+04:38:55.622 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:38:56.037 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:38:56.054 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:38:56.280 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 189
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:38:56.420 [main] DEBUG com.intuit.karate - response time in milliseconds: 138
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:38:56 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:38:56.428 [main] DEBUG com.intuit.karate - request:
+1 > PUT http://localhost:9191/normal/webapi/update
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":70,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:38:56.436 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+1 < 404
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:38:56 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"Failed to update Entry [jobId=70, jobTitle=Backend Developer, jobDescription=To develop web applications, experience=[Ljava.lang.Object;@55c3b15e, project=[[projectName=Social Media, technology=[JavaScript]]]]"}
+
+04:38:56.440 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:17
+And status 200
+status code was: 404, expected: 200, response time in milliseconds: 8, url: http://localhost:9191/normal/webapi/update, response: 
+{"message":"Failed to update Entry [jobId=70, jobTitle=Backend Developer, jobDescription=To develop web applications, experience=[Ljava.lang.Object;@55c3b15e, project=[[projectName=Social Media, technology=[JavaScript]]]]"}
+classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:17
+04:39:38.362 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:39:38.736 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:39:38.751 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:39:38.893 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 189
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:39:38.913 [main] DEBUG com.intuit.karate - response time in milliseconds: 18
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:39:38 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:39:38.919 [main] DEBUG com.intuit.karate - request:
+1 > PUT http://localhost:9191/normal/webapi/update
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 193
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":"619\"","jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:39:38.951 [main] DEBUG com.intuit.karate - response time in milliseconds: 32
+1 < 400
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:39:38 GMT
+1 < Connection: close
+{"timestamp":"2023-10-30T07:39:38.938+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize value of type `int` from String \"619\"\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String \"619\"\": not a valid Integer value\n at [Source: (PushbackInputStream); line: 1, column: 10] (through reference chain: com.lab.jobportal.model.Job[\"jobId\"])","path":"/normal/webapi/update"}
+
+04:39:38.955 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:17
+And status 200
+status code was: 400, expected: 200, response time in milliseconds: 32, url: http://localhost:9191/normal/webapi/update, response: 
+{"timestamp":"2023-10-30T07:39:38.938+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize value of type `int` from String \"619\"\": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `int` from String \"619\"\": not a valid Integer value\n at [Source: (PushbackInputStream); line: 1, column: 10] (through reference chain: com.lab.jobportal.model.Job[\"jobId\"])","path":"/normal/webapi/update"}
+classpath:com/luidimso/automation/putrequest/updateJobEntry.feature:17
+04:39:53.635 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+04:39:54.032 [main] INFO  com.intuit.karate - karate.env system property was: null 
+04:39:54.047 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+04:39:54.195 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 189
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:39:54.215 [main] DEBUG com.intuit.karate - response time in milliseconds: 19
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:39:54 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:39:54.222 [main] DEBUG com.intuit.karate - request:
+1 > PUT http://localhost:9191/normal/webapi/update
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 189
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+04:39:54.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 30 Oct 2023 07:39:54 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+

@@ -1,4 +1,4 @@
-package com.luidi.automation.fileUpload;
+package com.luidimso.automation.fileUpload;
 
 import com.intuit.karate.junit5.Karate;
 import com.intuit.karate.junit5.Karate.Test;
