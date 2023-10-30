@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2023-10-30 04:39:54 AM</div>
+    <div>2023-10-30 04:47:55 AM</div>
   </div>
 </div>
 
@@ -81,7 +81,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>181</span>
+              <span>ms:</span>&nbsp;<span>312</span>
             </div>
           </div>
           <div class="step-row">
@@ -113,7 +113,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">04:39:54.033 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.5">04:47:55.392 karate.env system property was: null 
 </div>   
 
   
@@ -133,7 +133,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>print &#39;Backgrount seted up&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -142,7 +142,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.6">04:39:54.047 [print] Backgrount seted up 
+  <div class="preformatted" data-parent="0.6">04:47:55.409 [print] Backgrount seted up 
 </div>   
 
   
@@ -162,7 +162,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def getJobId = function(value) {return Math.floor((100) * Math.random());}</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -190,7 +190,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def id = getJobId()</span>
       </div>
     </div>
-    <div class="time-cell passed">5</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -243,10 +243,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">12</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>call read(&quot;../createJobEntry.feature&quot;)</span>
+        <span>*</span>&nbsp;<span>def postRequest = call read(&quot;../createJobEntry.feature&quot;)</span>
       </div>
     </div>
-    <div class="time-cell passed">150</div>
+    <div class="time-cell passed">278</div>
   </div>
 
    
@@ -265,7 +265,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="step-indent"></div>
         <div class="step-cell passed">com.luidimso.automation.putrequest.createJobEntry</div>
       </div>
-      <div class="time-cell passed">140</div>
+      <div class="time-cell passed">269</div>
     </div>
     <div>
       <div><div>
@@ -334,10 +334,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">7</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;jobId&quot;: 619, &quot;jobTitle&quot;: &quot;Backend Developer&quot;, &quot;jobDescription&quot;: &quot;To develop web applications&quot;,&quot;experience&quot;: [&quot;Developer&quot;],&quot;project&quot;: [{&quot;projectName&quot;: &quot;Social Media&quot;,&quot;technology&quot;: [&quot;JavaScript&quot;]}]}</span>
+        <span>*</span>&nbsp;<span>def getJobId = function(value) {return Math.floor((100) * Math.random());}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -362,7 +362,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">8</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>headers {Accept : &#39;application/json&#39;, Content-type : &#39;application/json&#39;}</span>
+        <span>*</span>&nbsp;<span>def id = getJobId()</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -390,10 +390,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">9</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method post</span>
+        <span>And</span>&nbsp;<span>request {&quot;jobId&quot;: &#39;#(id)&#39;, &quot;jobTitle&quot;: &quot;Backend Developer&quot;, &quot;jobDescription&quot;: &quot;To develop web applications&quot;,&quot;experience&quot;: [&quot;Developer&quot;],&quot;project&quot;: [{&quot;projectName&quot;: &quot;Social Media&quot;,&quot;technology&quot;: [&quot;JavaScript&quot;]}]}</span>
       </div>
     </div>
-    <div class="time-cell passed">138</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -402,33 +402,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.12.0.call.0.9">04:39:54.195 request:
-1 &gt; POST http://localhost:9191/normal/webapi/add
-1 &gt; Accept: application/json
-1 &gt; Content-type: application/json; charset=UTF-8
-1 &gt; Content-Length: 189
-1 &gt; Host: localhost:9191
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
-1 &gt; Accept-Encoding: gzip,deflate
-{&quot;jobId&quot;:619,&quot;jobTitle&quot;:&quot;Backend Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
-
-04:39:54.216 response time in milliseconds: 19
-1 &lt; 201
-1 &lt; X-Content-Type-Options: nosniff
-1 &lt; X-XSS-Protection: 1; mode=block
-1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-1 &lt; Pragma: no-cache
-1 &lt; Expires: 0
-1 &lt; X-Frame-Options: DENY
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Date: Mon, 30 Oct 2023 07:39:54 GMT
-1 &lt; Keep-Alive: timeout=60
-1 &lt; Connection: keep-alive
-{&quot;jobId&quot;:619,&quot;jobTitle&quot;:&quot;Backend Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
-
-</div>   
+     
 
   
 
@@ -442,6 +416,88 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   <div class="step-row" data-parent="0.12.0.call">
     <div class="step-container" id="0.12.0.call.0.10">
       <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers {Accept : &#39;application/json&#39;, Content-type : &#39;application/json&#39;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">265</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12.0.call.0.11">04:47:55.564 request:
+1 &gt; POST http://localhost:9191/normal/webapi/add
+1 &gt; Accept: application/json
+1 &gt; Content-type: application/json; charset=UTF-8
+1 &gt; Content-Length: 188
+1 &gt; Host: localhost:9191
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;jobId&quot;:91,&quot;jobTitle&quot;:&quot;Backend Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
+
+04:47:55.706 response time in milliseconds: 141
+1 &lt; 201
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Pragma: no-cache
+1 &lt; Expires: 0
+1 &lt; X-Frame-Options: DENY
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Mon, 30 Oct 2023 07:47:55 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+{&quot;jobId&quot;:91,&quot;jobTitle&quot;:&quot;Backend Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.12.0.call">
+    <div class="step-container" id="0.12.0.call.0.12">
+      <div class="step-ref passed">12</div>
       <div class="step-indent"></div>
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>status 201&#39;</span>
@@ -505,10 +561,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">14</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>request {&quot;jobId&quot;: 619, &quot;jobTitle&quot;: &quot;Backend Developer&quot;, &quot;jobDescription&quot;: &quot;To develop web applications&quot;,&quot;experience&quot;: [&quot;Developer&quot;],&quot;project&quot;: [{&quot;projectName&quot;: &quot;Social Media&quot;,&quot;technology&quot;: [&quot;JavaScript&quot;]}]}</span>
+        <span>And</span>&nbsp;<span>request {&quot;jobId&quot;: &#39;#(postRequest.id)&#39;, &quot;jobTitle&quot;: &quot;Backend Developer&quot;, &quot;jobDescription&quot;: &quot;To develop web applications&quot;,&quot;experience&quot;: [&quot;Developer&quot;],&quot;project&quot;: [{&quot;projectName&quot;: &quot;Social Media&quot;,&quot;technology&quot;: [&quot;JavaScript&quot;]}]}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -564,7 +620,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method put</span>
       </div>
     </div>
-    <div class="time-cell passed">5</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -573,18 +629,18 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.16">04:39:54.222 request:
+  <div class="preformatted" data-parent="0.16">04:47:55.713 request:
 1 &gt; PUT http://localhost:9191/normal/webapi/update
 1 &gt; Accept: application/json
 1 &gt; Content-type: application/json; charset=UTF-8
-1 &gt; Content-Length: 189
+1 &gt; Content-Length: 188
 1 &gt; Host: localhost:9191
 1 &gt; Connection: Keep-Alive
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;jobId&quot;:619,&quot;jobTitle&quot;:&quot;Backend Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
+{&quot;jobId&quot;:91,&quot;jobTitle&quot;:&quot;Backend Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
 
-04:39:54.226 response time in milliseconds: 4
+04:47:55.717 response time in milliseconds: 4
 1 &lt; 200
 1 &lt; X-Content-Type-Options: nosniff
 1 &lt; X-XSS-Protection: 1; mode=block
@@ -594,10 +650,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; X-Frame-Options: DENY
 1 &lt; Content-Type: application/json
 1 &lt; Transfer-Encoding: chunked
-1 &lt; Date: Mon, 30 Oct 2023 07:39:54 GMT
+1 &lt; Date: Mon, 30 Oct 2023 07:47:55 GMT
 1 &lt; Keep-Alive: timeout=60
 1 &lt; Connection: keep-alive
-{&quot;jobId&quot;:619,&quot;jobTitle&quot;:&quot;Backend Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
+{&quot;jobId&quot;:91,&quot;jobTitle&quot;:&quot;Backend Developer&quot;,&quot;jobDescription&quot;:&quot;To develop web applications&quot;,&quot;experience&quot;:[&quot;Developer&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Social Media&quot;,&quot;technology&quot;:[&quot;JavaScript&quot;]}]}
 
 </div>   
 
