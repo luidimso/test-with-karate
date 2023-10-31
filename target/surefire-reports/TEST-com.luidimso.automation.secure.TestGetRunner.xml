@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.luidimso.automation.delete.TestDeleteRunner" time="0.16" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.luidimso.automation.secure.TestGetRunner" time="0.182" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -59,18 +59,19 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="[1:9] To delete a new job entry" classname="com/luidimso/automation/delete/deleteJobDescription" time="0.024"/>
-  <testcase name="[2:23] To delete a new job entry" classname="com/luidimso/automation/delete/deleteJobDescription" time="0.134">
+  <testcase name="[1:8] To get all the data from application with Basic Auth" classname="com/luidimso/automation/secure/secureGetRequest" time="0.099"/>
+  <testcase name="[2:18] To not let access endpoint (no credencials)" classname="com/luidimso/automation/secure/secureGetRequest" time="0.005"/>
+  <testcase name="[3:24] To not let access endpoint (wrong credencials)" classname="com/luidimso/automation/secure/secureGetRequest" time="0.073">
     <system-out><![CDATA[---------------------------------------------------------
-feature: classpath:com/luidimso/automation/delete/deleteJobDescription.feature
-scenarios:  2 | passed:  2 | failed:  0 | time: 0,0366
+feature: classpath:com/luidimso/automation/secure/secureGetRequest.feature
+scenarios:  3 | passed:  3 | failed:  0 | time: 0,1036
 ---------------------------------------------------------
 
 Karate version: 1.4.1
 ======================================================
-elapsed:   0,09 | threads:    1 | thread time: 0,04 
-features:     1 | skipped:    0 | efficiency: 0,43
-scenarios:    2 | passed:     2 | failed: 0
+elapsed:   0,13 | threads:    1 | thread time: 0,10 
+features:     1 | skipped:    0 | efficiency: 0,79
+scenarios:    3 | passed:     3 | failed: 0
 ======================================================
 
 HTML report: (paste into browser to view) | Karate version: 1.4.1

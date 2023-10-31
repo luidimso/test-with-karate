@@ -6,11 +6,15 @@ Feature: To access GEt endpoint with secure Basic Auth
 		
 		#admin.welcome
 		Scenario: To get all the data from application with Basic Auth
+			* def localUsername = username
+			* def localPassword = password
 			Given path '/secure/webapi/all'
 			And headers {Accept : 'application/json', Authorization : 'Basic YWRtaW46d2VsY29tZQ=='}
 			When method get
 			Then status 200
 			And match response == '#notnull'
+			And match localUsername == "admin1"
+			And match localPassword == "welcome"
 			
 		Scenario: To not let access endpoint (no credencials)
 			Given path '/secure/webapi/all'

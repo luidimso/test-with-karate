@@ -1,5 +1,6 @@
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/TestGetRunnerWithCumcumberReport.java
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/fileUpload/TestFileUploadRunner.java
+/Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/secure/TestGetRunner.java
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/CommonCode.java
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/getrequest/TestGetRunner.java
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/getrequest/queryparams/TestGetWithParamsRunner.java
