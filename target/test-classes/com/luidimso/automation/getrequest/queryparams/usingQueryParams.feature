@@ -20,7 +20,7 @@ Feature: To test a GET request with paramters
 		Scenario: To find a wrong job entry not created
 			* def postRequest = call read("../../createJobEntry.feature") {_url: 'http://localhost:9191', _path: '/normal/webapi/add', _id: '#(createId)'}
 			Given path '/normal/webapi/find'
-			And param id = 2
+			And param id = 100
 			And param jobTitle = 'Backend Developer'
 			And headers {Accept : 'application/json'}
 			When method get
