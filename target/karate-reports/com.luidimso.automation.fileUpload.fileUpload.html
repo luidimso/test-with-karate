@@ -26,7 +26,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 });
 </script>
 
-    <title>com.luidimso.automation.getrequest.variables</title>
+    <title>com.luidimso.automation.fileUpload.fileUpload</title>
   </head>
   <body>
     <div id="root-container">
@@ -55,7 +55,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1:8]"><span>[1:8]</span> <span>To create variables</span></a>
+            <a href="#[1:7]"><span>[1:7]</span> <span>To upload file</span></a>
           </div>
         </div>
       </div>
@@ -64,44 +64,44 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
-          <span class="feature-path">com/luidimso/automation/getrequest/variables.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">To create variables as examples</span>
-          <span class="feature-description">To create variables and test them</span>
+          <span class="feature-path">com/luidimso/automation/fileUpload/fileUpload.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">To upload a file using Karate Framework</span>
+          <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:8]">
+          <div class="scenario-heading" id="[1:7]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:8]</span>
-                <span class="scenario-name">To create variables</span>
+                Scenario: <span>[1:7]</span>
+                <span class="scenario-name">To upload file</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2</span>
+              <span>ms:</span>&nbsp;<span>79</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:8]bg">
+            <div class="step-container" id="[1:7]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:8]bg"><div>
+          <div data-parent="[1:7]bg"><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.5">
-      <div class="step-ref bg-step">5</div>
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def hello = &#39;Hello&#39;</span>
+        <span>Given</span>&nbsp;<span>url &#39;http://localhost:9191&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -113,8 +113,65 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.5">15:15:28.425 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">15:15:28.906 karate.env system property was: null 
 </div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:7]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;Backgrount seted up&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">15:15:28.907 [print] Backgrount seted up 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/normal/webapi/upload&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
 
   
 
@@ -130,7 +187,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">9</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>def variable = 10</span>
+        <span>*</span>&nbsp;<span>def file = &#39;file.txt&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -158,10 +215,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">10</div>
       
       <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>print variable</span>
+        <span>And</span>&nbsp;<span>multipart file file = { read: &#39;#(file)&#39;, filename: &#39;#(file)&#39;, Content-type: &#39;multipart/form-data&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">42</div>
   </div>
 
    
@@ -170,8 +227,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.10">15:15:28.426 [print] 10 
-</div>   
+     
 
   
 
@@ -187,7 +243,66 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def variable_2 = variable + 619</span>
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">35</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">15:15:28.952 request:
+1 &gt; POST http://localhost:9191/normal/webapi/upload
+1 &gt; Content-Type: multipart/form-data; boundary=66d3c8ace6448c1
+1 &gt; Content-Length: 177
+1 &gt; Host: localhost:9191
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+
+Mixed: content-disposition: form-data; name=&quot;file&quot;; filename=&quot;file.txt&quot;
+content-type: text/plain; charset=UTF-8
+content-length: 7
+Completed: true
+IsInMemory: true
+
+
+15:15:28.984 response time in milliseconds: 32
+1 &lt; 200
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Pragma: no-cache
+1 &lt; Expires: 0
+1 &lt; X-Frame-Options: DENY
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Tue, 31 Oct 2023 18:15:28 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+{&quot;message&quot;:&quot;File file.txt uploaded at /var/folders/tf/zgv1p1wn1m71gk8h2gc33n9x9vxzc6/T//&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -211,14 +326,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.12">
-      <div class="step-ref passed">12</div>
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>print variable_2</span>
+        <span>And</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -227,7 +342,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.12">15:15:28.427 [print] 629 
+  <div class="preformatted" data-parent="0.13">15:15:28.985 [print] {
+  &quot;message&quot;: &quot;File file.txt uploaded at /var/folders/tf/zgv1p1wn1m71gk8h2gc33n9x9vxzc6/T//&quot;
+}
+ 
 </div>   
 
   
@@ -240,11 +358,11 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.13">
-      <div class="step-ref passed">13</div>
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>print hello</span>
+        <span>And</span>&nbsp;<span>match response.message contains &#39;file.txt&#39;</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -256,8 +374,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.13">15:15:28.427 [print] Hello 
-</div>   
+     
 
   
 
