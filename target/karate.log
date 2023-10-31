@@ -11111,3 +11111,2785 @@ IsInMemory: true
 1 < Connection: close
 {"timestamp":"2023-10-31T18:15:29.506+0000","status":400,"error":"Bad Request","message":"Required int parameter 'id' is not present","path":"/normal/webapi/update/details"}
 
+15:32:09.824 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:32:10.234 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:10.249 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:32:10.401 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":68,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:32:10.410 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 104 milliseconds for url: http://localhost:9191/normal/webapi/add
+15:32:10.411 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/delete/../createJobEntry.feature:9
+When method post
+http call failed after 104 milliseconds for url: http://localhost:9191/normal/webapi/add
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/delete/../createJobEntry.feature:9
+15:32:10.412 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/delete/deleteJobDescription.feature:10
+* def postRequest = call read("../createJobEntry.feature") {_url: 'http://localhost:9191', _path: '/normal/webapi/add', _id: '#(createId)'}
+http call failed after 104 milliseconds for url: http://localhost:9191/normal/webapi/add
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/delete/../createJobEntry.feature:9
+classpath:com/luidimso/automation/delete/deleteJobDescription.feature:10
+15:32:10.421 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:10.422 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:32:10.430 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 187
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":6,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:32:10.431 [main] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused, http call failed after 2 milliseconds for url: http://localhost:9191/normal/webapi/add
+15:32:10.431 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/delete/../createJobEntry.feature:9
+When method post
+http call failed after 2 milliseconds for url: http://localhost:9191/normal/webapi/add
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/delete/../createJobEntry.feature:9
+15:32:10.431 [main] ERROR com.intuit.karate - classpath:com/luidimso/automation/delete/deleteJobDescription.feature:24
+* def postRequest = call read("../createJobEntry.feature") {_url: 'http://localhost:9191', _path: '/normal/webapi/add', _id: '#(createId)'}
+http call failed after 2 milliseconds for url: http://localhost:9191/normal/webapi/add
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9191 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+classpath:com/luidimso/automation/delete/../createJobEntry.feature:9
+classpath:com/luidimso/automation/delete/deleteJobDescription.feature:24
+15:32:21.603 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:32:21.999 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:22.018 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:32:22.171 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":20,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:32:22.307 [main] DEBUG com.intuit.karate - response time in milliseconds: 134
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:22 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":20,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:32:22.317 [main] DEBUG com.intuit.karate - request:
+1 > DELETE http://localhost:9191/normal/webapi/remove/20
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:32:22.321 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:22 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":20,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:32:22.325 [main] DEBUG com.intuit.karate - request:
+2 > GET http://localhost:9191/normal/webapi/find?jobTitle=Backend+Developer&id=20
+2 > Accept: application/json
+2 > Host: localhost:9191
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+15:32:22.334 [main] DEBUG com.intuit.karate - response time in milliseconds: 9
+2 < 404
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 31 Oct 2023 18:32:22 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"message":"Failed to find job with id=20, jobTitle=Backend Developer"}
+
+15:32:22.341 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:22.343 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:32:22.351 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":24,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:32:22.354 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:22 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":24,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:32:22.355 [main] DEBUG com.intuit.karate - request:
+1 > DELETE http://localhost:9191/normal/webapi/remove/24
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:32:22.358 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:22 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":24,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:32:22.360 [main] DEBUG com.intuit.karate - request:
+2 > DELETE http://localhost:9191/normal/webapi/remove/24
+2 > Accept: application/json
+2 > Host: localhost:9191
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+15:32:22.362 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+2 < 404
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 31 Oct 2023 18:32:22 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"message":"Entry with id = 24 not found"}
+
+15:32:50.791 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:32:51.182 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:51.197 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:32:51.297 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:32:51.318 [main] DEBUG com.intuit.karate - response time in milliseconds: 19
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:51 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:32:51.339 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:51.341 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:32:51.342 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:32:51.347 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:51 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:32:51.352 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:51.353 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:32:51.355 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:32:51.381 [main] DEBUG com.intuit.karate - response time in milliseconds: 26
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:51 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+
+15:32:51.671 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:51.673 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:32:51.680 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:51 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:32:51.681 [main] INFO  com.intuit.karate - [print] [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+15:32:51.755 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:51.756 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:32:51.761 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:51 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:32:51.773 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:51.774 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:32:51.782 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:32:51 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:32:51.850 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:51.852 [main] INFO  com.intuit.karate - [print] 10 
+15:32:51.852 [main] INFO  com.intuit.karate - [print] 629 
+15:32:51.853 [main] INFO  com.intuit.karate - [print] Hello 
+15:33:17.609 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:33:18.007 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:33:18.023 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:33:18.123 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:33:18.139 [main] DEBUG com.intuit.karate - response time in milliseconds: 14
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:33:18 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:33:18.160 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:33:18.162 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:33:18.162 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:33:18.169 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:33:18 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:33:18.173 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:33:18.174 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:33:18.176 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:33:18.183 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:33:18 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item></List>
+
+15:33:18.456 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:33:18.457 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:33:18.463 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:33:18 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:33:18.464 [main] INFO  com.intuit.karate - [print] [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+15:33:18.505 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:33:18.506 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:33:18.513 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:33:18 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:33:18.526 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:33:18.527 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:33:18.535 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:33:18 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:33:18.579 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:33:18.580 [main] INFO  com.intuit.karate - [print] 10 
+15:33:18.580 [main] INFO  com.intuit.karate - [print] 629 
+15:33:18.581 [main] INFO  com.intuit.karate - [print] Hello 
+15:34:15.594 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:34:16.008 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:16.024 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:34:16.179 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":20,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:16.199 [main] DEBUG com.intuit.karate - response time in milliseconds: 18
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:16 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":20,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:16.209 [main] DEBUG com.intuit.karate - request:
+1 > DELETE http://localhost:9191/normal/webapi/remove/20
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:16.219 [main] DEBUG com.intuit.karate - response time in milliseconds: 10
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:16 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":20,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:16.222 [main] DEBUG com.intuit.karate - request:
+2 > GET http://localhost:9191/normal/webapi/find?jobTitle=Backend+Developer&id=20
+2 > Accept: application/json
+2 > Host: localhost:9191
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+15:34:16.228 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+2 < 404
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 31 Oct 2023 18:34:16 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"message":"Failed to find job with id=20, jobTitle=Backend Developer"}
+
+15:34:16.236 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:16.237 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:34:16.244 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":21,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:16.247 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:16 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":21,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:16.249 [main] DEBUG com.intuit.karate - request:
+1 > DELETE http://localhost:9191/normal/webapi/remove/21
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:16.253 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:16 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":21,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:16.255 [main] DEBUG com.intuit.karate - request:
+2 > DELETE http://localhost:9191/normal/webapi/remove/21
+2 > Accept: application/json
+2 > Host: localhost:9191
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+15:34:16.259 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+2 < 404
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 31 Oct 2023 18:34:16 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"message":"Entry with id = 21 not found"}
+
+15:34:29.440 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:34:29.828 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:29.842 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:34:29.988 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:30.007 [main] DEBUG com.intuit.karate - response time in milliseconds: 17
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:30 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:30.014 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/find?jobTitle=Backend+Developer&id=23
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:30.017 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:30 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:30.032 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:30.033 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:34:30.040 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:30.044 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:30 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:30.047 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/find?jobTitle=Backend+Developer&id=2
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:30.051 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 404
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:30 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"Failed to find job with id=2, jobTitle=Backend Developer"}
+
+15:34:54.915 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:34:55.303 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:55.318 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:34:55.461 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:55.478 [main] DEBUG com.intuit.karate - response time in milliseconds: 15
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:55 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:55.487 [main] DEBUG com.intuit.karate - request:
+1 > PATCH http://localhost:9191/normal/webapi/update/details?jobTitle=Backend+Developer&jobDescription=A+description&id=43
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:55.493 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:55 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:55.506 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:55.507 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:34:55.514 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:55.520 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:55 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:55.523 [main] DEBUG com.intuit.karate - request:
+1 > PATCH http://localhost:9191/normal/webapi/update/details?jobTitle=Backend+Developer&jobDescription=A+description&id=2
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:55.533 [main] DEBUG com.intuit.karate - response time in milliseconds: 10
+1 < 404
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:55 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"Failed to find job with id=2"}
+
+15:34:55.537 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:34:55.538 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:34:55.543 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:55.549 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:55 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:34:55.551 [main] DEBUG com.intuit.karate - request:
+1 > PATCH http://localhost:9191/normal/webapi/update/details?jobTitle=Backend+Developer&jobDescription=A+description
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:34:55.564 [main] DEBUG com.intuit.karate - response time in milliseconds: 13
+1 < 400
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:34:55 GMT
+1 < Connection: close
+{"timestamp":"2023-10-31T18:34:55.557+0000","status":400,"error":"Bad Request","message":"Required int parameter 'id' is not present","path":"/normal/webapi/update/details"}
+
+15:35:09.655 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:35:10.060 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:10.074 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:35:10.212 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 185
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:35:10.232 [main] DEBUG com.intuit.karate - response time in milliseconds: 18
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:10 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:35:10.235 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 619,
+  "jobTitle": "Web Developer",
+  "jobDescription": "To develop web applications",
+  "experience": [
+    "Developer"
+  ],
+  "project": [
+    {
+      "projectName": "Social Media",
+      "technology": [
+        "JavaScript"
+      ]
+    }
+  ]
+}
+ 
+15:35:10.500 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:10.501 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:35:10.503 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 185
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:35:10.508 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:10 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:35:10.509 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 619,
+  "jobTitle": "Web Developer",
+  "jobDescription": "To develop web applications",
+  "experience": [
+    "Developer"
+  ],
+  "project": [
+    {
+      "projectName": "Social Media",
+      "technology": [
+        "JavaScript"
+      ]
+    }
+  ]
+}
+ 
+15:35:10.579 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:10.580 [main] INFO  com.intuit.karate - [print] Hello 
+15:35:26.109 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:35:26.503 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:26.518 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:35:26.664 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:35:26.684 [main] DEBUG com.intuit.karate - response time in milliseconds: 17
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:26 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:35:26.689 [main] DEBUG com.intuit.karate - request:
+1 > PUT http://localhost:9191/normal/webapi/update
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:35:26.697 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:26 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:35:47.915 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:35:48.329 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:48.346 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:35:48.447 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:48.463 [main] DEBUG com.intuit.karate - response time in milliseconds: 15
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:48 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:35:48.484 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:48.486 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:35:48.487 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:48.494 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:48 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:35:48.499 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:48.500 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:35:48.502 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:48.511 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:48 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>43</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>A description</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>79</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>79</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>619</jobId><jobTitle>Web Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>619</jobId><jobTitle>Web Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>17</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item></List>
+
+15:35:48.802 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:48.804 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:48.809 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:48 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:35:48.811 [main] INFO  com.intuit.karate - [print] [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 23,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 23,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 43,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "A description",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 79,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 79,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 619,
+    "jobTitle": "Web Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 619,
+    "jobTitle": "Web Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 17,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+]
+ 
+15:35:48.889 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:48.891 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:48.896 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:48 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:35:48.907 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:48.909 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:48.913 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:35:48 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:35:48.991 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:48.993 [main] INFO  com.intuit.karate - [print] 10 
+15:35:48.994 [main] INFO  com.intuit.karate - [print] 629 
+15:35:48.994 [main] INFO  com.intuit.karate - [print] Hello 
+15:37:24.811 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:25.204 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:25.218 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:25.317 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:25.335 [main] DEBUG com.intuit.karate - response time in milliseconds: 16
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:25 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:25.355 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:25.356 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:25.358 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:25.364 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:25 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:25.368 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:25.369 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:25.371 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:25.379 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:25 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>43</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>A description</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>79</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>79</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>619</jobId><jobTitle>Web Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>619</jobId><jobTitle>Web Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>17</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item></List>
+
+15:37:25.637 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:25.639 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:25.645 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:25 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:25.647 [main] INFO  com.intuit.karate - [print] [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 23,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 23,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 43,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "A description",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 79,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 79,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 619,
+    "jobTitle": "Web Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 619,
+    "jobTitle": "Web Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 17,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+]
+ 
+15:37:25.689 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:25.690 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:25.695 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:25 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:25.708 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:25.709 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:25.714 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:25 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:25.758 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:25.759 [main] INFO  com.intuit.karate - [print] 10 
+15:37:25.760 [main] INFO  com.intuit.karate - [print] 629 
+15:37:25.760 [main] INFO  com.intuit.karate - [print] Hello 
+15:37:41.252 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:41.642 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:41.657 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:41.806 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":14,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:41.824 [main] DEBUG com.intuit.karate - response time in milliseconds: 16
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:41 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":14,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:41.831 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/find?jobTitle=Backend+Developer&id=14
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:41.837 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:41 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":14,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:41.851 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:41.852 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:41.859 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":50,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:41.864 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:41 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":50,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:41.867 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/find?jobTitle=Backend+Developer&id=2
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:41.871 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 404
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:41 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"Failed to find job with id=2, jobTitle=Backend Developer"}
+
+15:37:52.107 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:52.515 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:52.532 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:52.631 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:52.648 [main] DEBUG com.intuit.karate - response time in milliseconds: 16
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":14,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":50,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:52.668 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:52.670 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:52.671 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:52.676 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":14,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":50,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:52.680 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:52.681 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:52.683 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:52.690 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>23</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>43</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>A description</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>79</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>79</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>619</jobId><jobTitle>Web Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>619</jobId><jobTitle>Web Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>17</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>14</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item><item><jobId>50</jobId><jobTitle>Backend Developer</jobTitle><jobDescription>To develop web applications</jobDescription><experience><experience>Developer</experience></experience><project><project><projectName>Social Media</projectName><technology><technology>JavaScript</technology></technology></project></project></item></List>
+
+15:37:52.959 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:52.960 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:52.966 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":14,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":50,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:52.968 [main] INFO  com.intuit.karate - [print] [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 23,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 23,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 43,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "A description",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 79,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 79,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 619,
+    "jobTitle": "Web Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 619,
+    "jobTitle": "Web Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 17,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 14,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 50,
+    "jobTitle": "Backend Developer",
+    "jobDescription": "To develop web applications",
+    "experience": [
+      "Developer"
+    ],
+    "project": [
+      {
+        "projectName": "Social Media",
+        "technology": [
+          "JavaScript"
+        ]
+      }
+    ]
+  }
+]
+ 
+15:37:53.009 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.010 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:53.012 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":14,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":50,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:53.025 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.027 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:53.030 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":23,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":43,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":79,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":17,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":14,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]},{"jobId":50,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}]
+
+15:37:53.078 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.080 [main] INFO  com.intuit.karate - [print] 10 
+15:37:53.080 [main] INFO  com.intuit.karate - [print] 629 
+15:37:53.081 [main] INFO  com.intuit.karate - [print] Hello 
+15:37:53.102 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:53.105 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.106 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:53.138 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":26,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.148 [main] DEBUG com.intuit.karate - response time in milliseconds: 10
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":26,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.150 [main] DEBUG com.intuit.karate - request:
+1 > DELETE http://localhost:9191/normal/webapi/remove/26
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:53.157 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":26,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.159 [main] DEBUG com.intuit.karate - request:
+2 > GET http://localhost:9191/normal/webapi/find?jobTitle=Backend+Developer&id=26
+2 > Accept: application/json
+2 > Host: localhost:9191
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+15:37:53.164 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+2 < 404
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"message":"Failed to find job with id=26, jobTitle=Backend Developer"}
+
+15:37:53.167 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.167 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:53.171 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":96,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.178 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":96,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.179 [main] DEBUG com.intuit.karate - request:
+1 > DELETE http://localhost:9191/normal/webapi/remove/96
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:53.182 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":96,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.183 [main] DEBUG com.intuit.karate - request:
+2 > DELETE http://localhost:9191/normal/webapi/remove/96
+2 > Accept: application/json
+2 > Host: localhost:9191
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+2 > Accept-Encoding: gzip,deflate
+
+
+15:37:53.188 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+2 < 404
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"message":"Entry with id = 96 not found"}
+
+15:37:53.334 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:53.337 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.338 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:53.343 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":91,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.350 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":91,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.352 [main] DEBUG com.intuit.karate - request:
+1 > PUT http://localhost:9191/normal/webapi/update
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":91,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.359 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":91,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.476 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:53.478 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.478 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:53.514 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/upload
+1 > Content-Type: multipart/form-data; boundary=bbba4b18f6c53a2e
+1 > Content-Length: 179
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+Mixed: content-disposition: form-data; name="file"; filename="file.txt"
+content-type: text/plain; charset=UTF-8
+content-length: 7
+Completed: true
+IsInMemory: true
+
+
+15:37:53.568 [main] DEBUG com.intuit.karate - response time in milliseconds: 54
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"File file.txt uploaded at /var/folders/tf/zgv1p1wn1m71gk8h2gc33n9x9vxzc6/T//"}
+
+15:37:53.570 [main] INFO  com.intuit.karate - [print] {
+  "message": "File file.txt uploaded at /var/folders/tf/zgv1p1wn1m71gk8h2gc33n9x9vxzc6/T//"
+}
+ 
+15:37:53.611 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:53.613 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.614 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:53.615 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 185
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.617 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:52 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.618 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 619,
+  "jobTitle": "Web Developer",
+  "jobDescription": "To develop web applications",
+  "experience": [
+    "Developer"
+  ],
+  "project": [
+    {
+      "projectName": "Social Media",
+      "technology": [
+        "JavaScript"
+      ]
+    }
+  ]
+}
+ 
+15:37:53.651 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.652 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:53.653 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 185
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.655 [main] DEBUG com.intuit.karate - response time in milliseconds: 2
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":619,"jobTitle":"Web Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.656 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 619,
+  "jobTitle": "Web Developer",
+  "jobDescription": "To develop web applications",
+  "experience": [
+    "Developer"
+  ],
+  "project": [
+    {
+      "projectName": "Social Media",
+      "technology": [
+        "JavaScript"
+      ]
+    }
+  ]
+}
+ 
+15:37:53.685 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.686 [main] INFO  com.intuit.karate - [print] Hello 
+15:37:53.766 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:53.769 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.769 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:53.772 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":24,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.778 [main] DEBUG com.intuit.karate - response time in milliseconds: 6
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":24,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.780 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/find?jobTitle=Backend+Developer&id=24
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:53.784 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":24,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.786 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:53.786 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:53.789 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":83,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.796 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":83,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:53.797 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/find?jobTitle=Backend+Developer&id=2
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:53.804 [main] DEBUG com.intuit.karate - response time in milliseconds: 7
+1 < 404
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"Failed to find job with id=2, jobTitle=Backend Developer"}
+
+15:37:54.020 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:37:54.022 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:54.022 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:54.025 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":26,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:54.030 [main] DEBUG com.intuit.karate - response time in milliseconds: 5
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":26,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:54.031 [main] DEBUG com.intuit.karate - request:
+1 > PATCH http://localhost:9191/normal/webapi/update/details?jobTitle=Backend+Developer&jobDescription=A+description&id=26
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:54.039 [main] DEBUG com.intuit.karate - response time in milliseconds: 8
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":26,"jobTitle":"Backend Developer","jobDescription":"A description","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:54.042 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:54.042 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:54.044 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":46,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:54.062 [main] DEBUG com.intuit.karate - response time in milliseconds: 16
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":46,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:54.063 [main] DEBUG com.intuit.karate - request:
+1 > PATCH http://localhost:9191/normal/webapi/update/details?jobTitle=Backend+Developer&jobDescription=A+description&id=2
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:54.067 [main] DEBUG com.intuit.karate - response time in milliseconds: 4
+1 < 404
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"Failed to find job with id=2"}
+
+15:37:54.069 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:37:54.069 [main] INFO  com.intuit.karate - [print] Backgrount seted up 
+15:37:54.071 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-type: application/json; charset=UTF-8
+1 > Content-Length: 188
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":38,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:54.075 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":38,"jobTitle":"Backend Developer","jobDescription":"To develop web applications","experience":["Developer"],"project":[{"projectName":"Social Media","technology":["JavaScript"]}]}
+
+15:37:54.077 [main] DEBUG com.intuit.karate - request:
+1 > PATCH http://localhost:9191/normal/webapi/update/details?jobTitle=Backend+Developer&jobDescription=A+description
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:37:54.080 [main] DEBUG com.intuit.karate - response time in milliseconds: 3
+1 < 400
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 31 Oct 2023 18:37:53 GMT
+1 < Connection: close
+{"timestamp":"2023-10-31T18:37:54.079+0000","status":400,"error":"Bad Request","message":"Required int parameter 'id' is not present","path":"/normal/webapi/update/details"}
+

@@ -3,7 +3,7 @@ package com.luidimso.automation.getrequest.queryparams;
 import com.intuit.karate.junit5.Karate;
 import com.intuit.karate.junit5.Karate.Test;
 
-public class TestGetRunner {
+public class TestGetWithParamsRunner {
 
 	@Test
 	public Karate runTest() {
