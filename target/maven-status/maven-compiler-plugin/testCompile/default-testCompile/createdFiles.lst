@@ -1,9 +1,11 @@
 com/luidimso/automation/CommonCode.class
+com/luidimso/automation/config/report/CustomExtentReport.class
 com/luidimso/automation/TestGetRunnerWithCumcumberReport.class
 com/luidimso/automation/secure/TestGetRunner.class
 com/luidimso/automation/delete/TestDeleteRunner.class
 com/luidimso/automation/patchrequest/TestPatchRunner.class
 com/luidimso/automation/fileUpload/TestFileUploadRunner.class
+com/luidimso/automation/TestGetRunnerWithExtentReport.class
 com/luidimso/automation/getrequest/TestGetRunner.class
 com/luidimso/automation/putrequest/TestPutRunner.class
 com/luidimso/automation/getrequest/queryparams/TestGetWithParamsRunner.class

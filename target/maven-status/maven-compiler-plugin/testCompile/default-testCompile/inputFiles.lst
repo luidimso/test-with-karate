@@ -4,6 +4,8 @@
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/CommonCode.java
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/getrequest/TestGetRunner.java
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/getrequest/queryparams/TestGetWithParamsRunner.java
+/Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/config/report/CustomExtentReport.java
+/Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/TestGetRunnerWithExtentReport.java
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/delete/TestDeleteRunner.java
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/postrequest/TestPostRunner.java
 /Users/lsir/eclipse-workspace/test.with.karate/src/test/java/com/luidimso/automation/putrequest/TestPutRunner.java
